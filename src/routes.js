@@ -1,6 +1,6 @@
 const express = require('express');
 const multer = require('multer');
-const uploadConfig = require('config/upload');
+const uploadConfig = require('./config/upload');
 const PostController = require('controllers/PostController');
 const LikeController = require('controllers/Likecontroller');
 
