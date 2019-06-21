@@ -23,6 +23,7 @@ const storageTypes = {
     acl: "public-read",
     key: (req, file, callback) => {
       crypto.randomBytes(16, (error, hash) => {
+        console.log(file);
         if (error) callback(error);
         const fileName = `${hash.toString("hex")}-${file.originalname}`;
         callback(null, fileName);
