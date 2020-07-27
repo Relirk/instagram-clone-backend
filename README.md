@@ -16,7 +16,7 @@
 </p>
 
 :computer: Creating an API to load images locally and remotely for instagram clone app
-API accessible by link: https://rlk-instagram-clone-backend.herokuapp.com/
+* API accessible by link: https://rlk-instagram-clone-backend.herokuapp.com/
 
 ### Tools used:
 - [NodeJS](https://nodejs.org/en/)
